@@ -162,7 +162,7 @@ class SitesInformation:
                                     site_data[site_name]["urlMain"],
                                     site_data[site_name]["url"],
                                     site_data[site_name]["username_claimed"],
-                                    site_data[site_name]["username_unclaimed"],
+                                    site_data[site_name].get("username_unclaimed",""),
                                     site_data[site_name],
                                     site_data[site_name].get("isNSFW",False)
 
